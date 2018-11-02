@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height"
+  />
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' gap:; script-src 'self' data: https://ssl.gstatic.com 'unsafe-eval'; object-src *; style-src 'self' data: 'unsafe-inline'; img-src 'self' data:; media-src 'self' data:; font-src 'self' data:; connect-src *"> -->
+  <title>React hot-loading Hello World</title>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="./bundle.js"></script>
+  <script>
+    document.addEventListener("deviceready", onDeviceReady, false);
+
+    function onDeviceReady() {
+      FCMPlugin.getToken(function(token) {
+    
+    console.log(token);
+    // alert(token);
+    //FCMPlugin.onNotification( onNotificationCallback(data), successCallback(msg), errorCallback(err) )
+    //Here you define your application behaviour based on the notification data.
+    FCMPlugin.onNotification(function(data) {
+        console.log(data);
+        //data.wasTapped == true means in Background :  Notification was received on device tray and tapped by the user.
+        //data.wasTapped == false means in foreground :  Notification was received in foreground. Maybe the user needs to be notified.
+        // if (data.wasTapped) {
+        //     //Notification was received on device tray and tapped by the user.
+        //     alert(JSON.stringify(data));
+        // } else {
+        //     //Notification was received in foreground. Maybe the user needs to be notified.
+        //     alert(JSON.stringify(data));
+        // }
+    });
+});
+
+    } 
+  </script>
+</body>
+
+</html>

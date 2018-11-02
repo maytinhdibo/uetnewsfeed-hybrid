@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "108789276563",
+    "firebase_url": "https://uet-newsfeed-app.firebaseio.com",
+    "project_id": "uet-newsfeed-app",
+    "storage_bucket": "uet-newsfeed-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108789276563:android:c0710f4d7770b457",
+        "android_client_info": {
+          "package_name": "com.uet.newsfeed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108789276563-4tb69dno46013c4udb4dfnqvlfo7g2as.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6xZi4GRk8aiwUSujqA78yi2NRuVbnLjI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

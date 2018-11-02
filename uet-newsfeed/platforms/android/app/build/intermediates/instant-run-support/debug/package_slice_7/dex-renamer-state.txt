@@ -1,0 +1,4 @@
+#Mon Jul 23 10:50:22 ICT 2018
+base.0=/Users/maytinhdibo/Project/uet-newsfeed/platforms/android/app/build/intermediates/transforms/dexMerger/debug/102
+path.0=classes.dex
+renamed.0=classes.dex

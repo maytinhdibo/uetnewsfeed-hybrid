@@ -1,0 +1,82 @@
+{
+  "_from": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+  "_id": "phonegap-plugin-barcodescanner@8.0.0",
+  "_inBundle": false,
+  "_location": "/phonegap-plugin-barcodescanner",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+    "rawSpec": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+    "saveSpec": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+    "fetchSpec": "https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git#a7c36291f02d7d3134f534b136a2e234911111cc",
+  "_spec": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git",
+  "_where": "/Users/maytinhdibo/Project/uetQR",
+  "author": {
+    "name": "Adobe PhoneGap Team"
+  },
+  "bugs": {
+    "url": "https://github.com/phonegap/phonegap-plugin-barcodescanner/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "phonegap-plugin-barcodescanner",
+    "platforms": [
+      "ios",
+      "android",
+      "windows",
+      "browser"
+    ]
+  },
+  "deprecated": false,
+  "description": "You can use the BarcodeScanner plugin to scan different types of barcodes (using the device's camera) and get the metadata encoded in them for processing within your application.",
+  "devDependencies": {
+    "jasmine-node": "1.14.5",
+    "pluginpub": "^0.0.9"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "7.0.0": {
+        "cordova-android": ">=6.3.0"
+      },
+      "7.1.0": {
+        "cordova": ">=7.1.0",
+        "cordova-android": ">=6.3.0"
+      },
+      "8.0.0": {
+        "cordova": ">=7.1.0",
+        "cordova-android": ">=6.3.0"
+      },
+      "<7.0.0": {
+        "cordova-android": "<6.3.0"
+      }
+    }
+  },
+  "homepage": "https://github.com/phonegap/phonegap-plugin-barcodescanner#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova:plugin"
+  ],
+  "license": "MIT",
+  "name": "phonegap-plugin-barcodescanner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phonegap/phonegap-plugin-barcodescanner.git"
+  },
+  "scripts": {
+    "test": "jasmine-node --color spec"
+  },
+  "version": "8.0.0"
+}

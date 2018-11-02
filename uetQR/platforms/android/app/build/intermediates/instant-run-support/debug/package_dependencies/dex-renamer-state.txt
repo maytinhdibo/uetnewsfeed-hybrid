@@ -1,0 +1,4 @@
+#Fri Jul 20 09:36:53 ICT 2018
+base.0=/Users/maytinhdibo/Project/uetQR/platforms/android/app/build/intermediates/transforms/dexMerger/debug/10
+renamed.0=classes.dex
+file.0=/Users/maytinhdibo/Project/uetQR/platforms/android/app/build/intermediates/transforms/dexMerger/debug/10/classes.dex

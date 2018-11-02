@@ -1,0 +1,21 @@
+#app {
+    padding: 16px;
+    position: relative;
+}
+
+.scan {
+    width: 100%;
+    font-size: 65px;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scan.btn-large i {
+    font-size: 1.9rem;
+}
+
+#result {
+    padding: 6px;
+}

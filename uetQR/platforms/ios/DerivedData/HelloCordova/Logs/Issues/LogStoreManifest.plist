@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>8</integer>
+	<key>logs</key>
+	<dict>
+		<key>3822BBA6-EA26-44F1-AEB2-7553E590C450</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
+			<key>fileName</key>
+			<string>3822BBA6-EA26-44F1-AEB2-7553E590C450.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>HelloCordova-aypesdflrpbtxdfmtxarxsqtxudi</string>
+			<key>timeStartedRecording</key>
+			<real>553770302.37732697</real>
+			<key>timeStoppedRecording</key>
+			<real>553770304.80925298</real>
+			<key>title</key>
+			<string>Build target HelloCordova</string>
+			<key>uniqueIdentifier</key>
+			<string>3822BBA6-EA26-44F1-AEB2-7553E590C450</string>
+		</dict>
+		<key>4085B66E-B1B4-482F-9D00-8765809A442B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.target.product-type.library.static</string>
+			<key>fileName</key>
+			<string>4085B66E-B1B4-482F-9D00-8765809A442B.xcactivitylog</string>
+			<key>highLevelStatus</key>
+			<string>W</string>
+			<key>signature</key>
+			<string>CordovaLib-fdgfqtjgudihbzdctaeolrsctocg</string>
+			<key>timeStartedRecording</key>
+			<real>553769973.14375699</real>
+			<key>timeStoppedRecording</key>
+			<real>553769976.80231905</real>
+			<key>title</key>
+			<string>Build target CordovaLib</string>
+			<key>uniqueIdentifier</key>
+			<string>4085B66E-B1B4-482F-9D00-8765809A442B</string>
+		</dict>
+	</dict>
+	<key>preserveOldLogs</key>
+	<true/>
+</dict>
+</plist>
